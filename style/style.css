@@ -155,5 +155,9 @@ section:first-of-type>div:first-of-type{
     color: hwb(252 35% 35%);
 }
 #dflex{
-    
+    display: flex;
+}
+.icon{
+    width: 2.2rem;
+    height: auto;
 }
