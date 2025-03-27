@@ -11,7 +11,7 @@
 body{
     margin: 0;
     background-position: 50% 25%;
-    background: linear-gradient(180deg, hsla(0, 72%, 65%, 0) 100%, hsla(0, 0%, 100%, 0.539) 100%), url(../img/header.jpg) no-repeat;
+    background-image: url(../img/header.jpg), linear-gradient(#eb01a5, #d13531); /* W3C */
     background-size: cover;
 }
 header{
