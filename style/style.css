@@ -10,11 +10,12 @@
 
 body{
     margin: 0;
+    background-position: 50% 25%;
+    background: linear-gradient(180deg, hsla(0, 72%, 65%, 0) 100%, hsla(0, 0%, 100%, 0.539) 100%), url(../img/header.jpg) no-repeat;
+    background-size: cover;
 }
 header{
-    background-image: url(../img/header.jpg);
-    width: 100%;
-    height: auto;
+    /* height: 70vh; */
     padding-bottom: 0.5rem;
 }
 .fontH{
