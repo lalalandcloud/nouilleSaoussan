@@ -1,16 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans+JP:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
 
+
+.noto-sans-jp- {
+    font-family: "Noto Sans JP", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
 .baloo-2 {
     font-family: "Baloo 2", sans-serif;
     font-optical-sizing: auto;
     font-weight: 300;
     font-style: normal;
-  }
+}
   
 
 body{
     margin: 0;
-    background-position: 50% 25%;
+    background-position: 50% 10%;
     background-image: url(../img/header.jpg), linear-gradient(#eb01a5, #d13531); /* W3C */
     background-size: cover;
 }
@@ -62,7 +70,7 @@ header>div:nth-of-type(2){
     justify-self: center;
     padding: 0.5rem;
 }
-div:nth-of-type(2) h3{
+header>div:nth-of-type(2) h3{
     font-size: 3.5rem;
     color:hwb(233 34% 63%);
     margin: 0.3rem;
@@ -70,7 +78,7 @@ div:nth-of-type(2) h3{
     line-height: 100%;
     margin-left: 0;
 }
-div:nth-of-type(2) h1{
+header>div:nth-of-type(2) h1{
     font-size: 4.5rem;
     color: rgb(64, 68, 77);
     margin: 0.5rem;
@@ -78,7 +86,7 @@ div:nth-of-type(2) h1{
     font-weight: 800;
     margin-left: 0;
 }
-div:nth-of-type(2) p{
+header>div:nth-of-type(2) p{
     font-size: 1.7rem;
     color:hwb(233 34% 63%);
     margin: 0.5rem;
@@ -87,7 +95,7 @@ div:nth-of-type(2) p{
     letter-spacing: 100%;
     margin-left: 0;
 }
-button:first-of-type{
+#btn1{
     color: white;
     background-color: hsl(252, 30%, 50%);
     padding: 0.5rem;
@@ -96,4 +104,47 @@ button:first-of-type{
 }
 #divbtn{
     margin-top: 1rem;
+}
+section:first-of-type{
+    display: flex;
+    padding: 4rem;
+    justify-self: center;
+}
+#man{
+    height: 65%;
+    width: auto;
+}
+section:first-of-type>div>div>h4{
+    color: hsl(252, 30%, 50%);
+    font-size: 2.3rem;
+    font-weight: 800;
+    font-family: "baloo 2";
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+section:first-of-type>div>div>p{
+    font-family: "noto sans jp";
+    font-size: 0.8rem;
+}
+
+section:first-of-type>div:nth-of-type(2)>div>p{
+    color:hwb(233 34% 63%);
+    margin: 0;
+}
+section:first-of-type>div{
+    width: auto;
+}
+section:first-of-type>div:first-of-type{
+    display: flex;
+    justify-content: center;
+}
+#divbtn2{
+    margin-top: 2rem;
+}
+#btn2{
+    background-color: #fff;
+    border: solid  hwb(252 35% 35%) 1px;
+    padding: 0.5rem;
+    border-radius: 15px;
+    color: hwb(252 35% 35%);
 }
