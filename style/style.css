@@ -156,6 +156,17 @@ section:first-of-type>div:first-of-type{
 }
 #dflex{
     display: flex;
+    justify-content: space-around;
+    align-self: center;
+}
+#dflex>div{
+    display: flex;
+    flex-direction: column;
+}
+#dflex>div>div{
+    justify-self: center;
+    align-self: center;
+    justify-content: center;
 }
 .icon{
     width: 2.2rem;
@@ -164,4 +175,32 @@ section:first-of-type>div:first-of-type{
 .folio{
     width: 20rem;
     height: auto;
+}
+#folio{
+    display: flex;
+    width: 65rem;
+    justify-content: space-around;
+}
+section:nth-of-type(2)>div:nth-of-type(2){
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+}
+section>div>div>h4{
+    color: hsl(252, 30%, 50%);
+    font-size: 2.3rem;
+    font-weight: 800;
+    font-family: "baloo 2";
+    margin-bottom: 1rem;
+    margin-top: 0;   
+    justify-self: center;
+}
+section>div>div>h6{
+    color:hwb(233 34% 63%);
+    margin: 0;
+    font-family: "noto sans jp";
+    padding: 0;
+    font-weight: 250;
+    font-size: 0.8rem;
+    justify-self: center;
 }
