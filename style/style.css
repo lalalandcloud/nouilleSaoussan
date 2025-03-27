@@ -163,14 +163,14 @@ section:first-of-type>div:first-of-type{
     display: flex;
     flex-direction: column;
     border: solid 0.7px black;
-    height: 5rem;
-    width: 5rem;
-
-}
-#dflex>div>div{
+    height: 15rem;
+    width: 15rem;
     justify-self: center;
     align-self: center;
     justify-content: center;
+}
+#dflex>div>div{
+    align-self: center;
 }
 .icon{
     width: 2.2rem;
@@ -216,4 +216,7 @@ section>div>div>h6{
 }
 #dflex>div>div:nth-of-type(2)>p{
     margin: 0;
+    color: hwb(252 35% 35%);
+    font-family: "baloo 2";
+    font-weight: 900;
 }
