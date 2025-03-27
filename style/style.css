@@ -32,16 +32,23 @@ nav>div:first-of-type{
     display: flex;
     justify-content: center;
 }
+nav>div:nth-of-type(2){
+    display: flex;
+    justify-content: center;
+}
 nav>div>h3{
     font-size:28px ;
 }
 nav>div>ul{
     display: flex;
     list-style-type: none;
-    justify-content: space-around;
+    justify-content: center;
+    padding: 0;
+}
+li{
+    margin: 0.5rem;
 }
 header>div not:div:nth-of-type(4){
     display: flex;
     flex-direction: column;
 }
-
