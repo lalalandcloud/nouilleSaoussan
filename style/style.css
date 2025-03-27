@@ -13,8 +13,7 @@
     font-optical-sizing: auto;
     font-weight: 300;
     font-style: normal;
-}
-  
+}  
 
 body{
     margin: 0;
@@ -108,7 +107,7 @@ header>div:nth-of-type(2) p{
 section:first-of-type{
     display: flex;
     padding: 4rem;
-    justify-self: center;
+    justify-content: space-between;
 }
 #man{
     height: 65%;
@@ -119,24 +118,31 @@ section:first-of-type>div>div>h4{
     font-size: 2.3rem;
     font-weight: 800;
     font-family: "baloo 2";
-    margin-top: 1rem;
     margin-bottom: 1rem;
+    margin-top: 0;
 }
 section:first-of-type>div>div>p{
     font-family: "noto sans jp";
     font-size: 0.8rem;
+    font-weight: 300;
 }
 
-section:first-of-type>div:nth-of-type(2)>div>p{
+section:first-of-type>div:nth-of-type(2)>div>h6{
     color:hwb(233 34% 63%);
     margin: 0;
+    font-family: "noto sans jp";
+    padding: 0;
+    font-weight: 250;
+    font-size: 0.8rem;
 }
-section:first-of-type>div{
-    width: auto;
+section:first-of-type>div:nth-of-type(2){
+    width: 40rem;
+    padding-right: 5rem;
 }
 section:first-of-type>div:first-of-type{
     display: flex;
     justify-content: center;
+    margin: 0;padding: 0;
 }
 #divbtn2{
     margin-top: 2rem;
