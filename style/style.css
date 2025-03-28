@@ -268,7 +268,6 @@ i{
     display: flex;
     justify-content: space-around;
     color: #fff;
-    height: 50vh;
 }
 #hm>div>div:nth-of-type(2)>p{
     letter-spacing: 12%;
@@ -283,10 +282,13 @@ i{
     font-size: 18px;
 }
 #hmBtn{
-    color: rgb(105, 90, 166);
+    display: flex;
+    color: black;
     background-color: #fff;
     border: none;
     font-family: "baloo 2";
     font-weight: 900;
     font-size: 18px;
+    border-radius: 5px;
+    justify-content: center;
 }
