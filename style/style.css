@@ -265,3 +265,17 @@ section:nth-of-type(3)>div>div:nth-of-type(3)>div{
 .centre>li>i{
     justify-self: center;
 }
+#hm{
+    background-color: rgb(105, 90, 166);
+    display: flex;
+    justify-content: space-around;
+    color: #fff;
+    font-family: "baloo 2";
+    font-weight: 900;
+    font-size: 18px;
+}
+#hmBtn{
+    color: rgb(105, 90, 166);
+    background-color: #fff;
+    border: none;
+}
