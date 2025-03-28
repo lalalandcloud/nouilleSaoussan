@@ -226,22 +226,42 @@ section>div>div>h6{
     font-weight: 900;
     font-size: 18px;
 }
-section ul{
+section:nth-of-type(3) ul{
     flex-direction: column;
 }
-section>div>div:nth-of-type(3){
+section:nth-of-type(3)>div:first-of-type>div:nth-of-type(3){
     display: flex;
     justify-content: center;
+    height: auto;
+    width: auto;
 }
-section>div>div:nth-of-type(3) p{
+section:nth-of-type(3)>div>div:nth-of-type(3) p{
     font-family: "noto sans jp";
-    margin: 0;
+    margin: 0.5rem;
     color:rgb(132, 132, 132);
     font-size: 0.8rem;
+    margin-left: 0;
 }
-section>div>div:nth-of-type(3) li{
+section:nth-of-type(3)>div>div:nth-of-type(3) li{
     margin: 0;
 }
-section>div>div:nth-of-type(3) div{
-    
+section:nth-of-type(3)>div>div:nth-of-type(3) div{
+    justify-self: center;
+}
+section:nth-of-type(3)>div>div:nth-of-type(3)>div{
+    padding: 1rem;
+    border: solid 1px rgba(0, 0, 0, 0.148);
+    padding-left:2rem;
+    padding-right: 2rem;
+}
+.croix{
+    color: red;
+    margin: 8px;
+    justify-self: center;
+}
+.centre>li p{
+    justify-self: center;
+}
+.centre>li>i{
+    justify-self: center;
 }
