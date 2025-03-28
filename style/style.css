@@ -296,6 +296,17 @@ i{
     display: flex;
 }
 #imgAvatar{
-    width: 25%;
+    display: flex;
+    width: 50%;
     height: auto;
+    justify-self: center;
+    align-self: center;
+}
+
+#sect4>div:nth-of-type(3){
+    display: flex;
+}
+#sect4{
+    display: flex;
+    flex-direction: column;
 }
