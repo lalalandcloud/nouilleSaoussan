@@ -17,15 +17,15 @@
 
 body{
     margin: 0;
-    background-position: 50% 10%;
-    background-image: url(../img/header.jpg), linear-gradient(#eb01a5, #d13531); /* W3C */
-    background-size: cover;
 }
 header{
     width: 100%;
     height: auto;
     padding-bottom: 0.5rem;
     padding-bottom: 0.5rem;
+    background-position: 50% 10%;
+    background:linear-gradient(180deg, #eb01a500 50% , #ffffff 90%),  url(../img/header.jpg); 
+    background-size: cover;
 }
 .fontH{
     font-family: "baloo 2";
