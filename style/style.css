@@ -254,10 +254,8 @@ section:nth-of-type(3)>div>div:nth-of-type(3)>div{
     padding-left:2rem;
     padding-right: 2rem;
 }
-.croix{
+i{
     color: red;
-    margin: 8px;
-    justify-self: center;
 }
 .centre>li p{
     justify-self: center;
