@@ -270,6 +270,16 @@ section:nth-of-type(3)>div>div:nth-of-type(3)>div{
     display: flex;
     justify-content: space-around;
     color: #fff;
+    height: 50vh;
+}
+#hm>div>div:nth-of-type(2)>p{
+    letter-spacing: 12%;
+    font-family: "noto sans jp";
+    font-weight: 200;
+    font-size: 14px;
+}
+
+#hm>div>div:first-of-type{
     font-family: "baloo 2";
     font-weight: 900;
     font-size: 18px;
@@ -278,4 +288,7 @@ section:nth-of-type(3)>div>div:nth-of-type(3)>div{
     color: rgb(105, 90, 166);
     background-color: #fff;
     border: none;
+    font-family: "baloo 2";
+    font-weight: 900;
+    font-size: 18px;
 }
