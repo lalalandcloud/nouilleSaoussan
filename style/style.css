@@ -19,12 +19,11 @@ body{
     margin: 0;
 }
 header{
-    width: 100%;
+    background:linear-gradient(180deg, #eb01a500 50% , #ffffff 90%),  url(../img/header.jpg); 
+    width:100%;
     height: auto;
     padding-bottom: 0.5rem;
-    padding-bottom: 0.5rem;
     background-position: 50% 10%;
-    background:linear-gradient(180deg, #eb01a500 50% , #ffffff 90%),  url(../img/header.jpg); 
     background-size: cover;
 }
 .fontH{
@@ -156,24 +155,27 @@ section:first-of-type>div:first-of-type{
 }
 #dflex{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-self: center;
+    gap: 2rem;
+
 }
 #dflex>div{
     display: flex;
     flex-direction: column;
-    border: solid 0.7px black;
-    height: 15rem;
-    width: 15rem;
-    justify-self: center;
-    align-self: center;
+    border: solid 1px rgba(0, 0, 0, 0.148);
+    height: 12rem;
+    width: 13rem;
+    /* justify-self: center;
+    align-self: center; */
     justify-content: center;
+    gap: 1rem;
 }
 #dflex>div>div{
     align-self: center;
 }
 .icon{
-    width: 2.2rem;
+    width: 3rem;
     height: auto;
     display: flex;
     justify-content: center;
@@ -186,15 +188,18 @@ section:first-of-type>div:first-of-type{
     display: flex;
     width: 65rem;
     justify-content: space-around;
+    padding-top: 2.5rem;
 }
 section:nth-of-type(2)>div:nth-of-type(2){
     display: flex;
     flex-direction: column;
     justify-self: center;
+    padding-top: 7rem;
+    padding-bottom: 7rem;
 }
 section>div>div>h4{
     color: hsl(252, 30%, 50%);
-    font-size: 2.3rem;
+    font-size: 2rem;
     font-weight: 800;
     font-family: "baloo 2";
     margin-bottom: 1rem;
@@ -202,13 +207,13 @@ section>div>div>h4{
     justify-self: center;
 }
 section>div>div>h6{
-    color:hwb(233 34% 63%);
+    color:rgb(132, 132, 132);
     margin: 0;
     font-family: "noto sans jp";
     padding: 0;
-    font-weight: 250;
     font-size: 0.8rem;
     justify-self: center;
+    font-weight: 450;
 }
 #dflex>div>div:nth-of-type(2){
     width: auto;
@@ -219,4 +224,5 @@ section>div>div>h6{
     color: hwb(252 35% 35%);
     font-family: "baloo 2";
     font-weight: 900;
+    font-size: 18px;
 }
