@@ -321,6 +321,7 @@ i{
     flex-direction: column;
     justify-self: center;
     padding-top: 2rem;
+    padding-bottom: 2rem;
 }
 #avatar div:first-of-type>p{
     letter-spacing: 12%;
