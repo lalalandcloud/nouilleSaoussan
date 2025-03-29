@@ -349,11 +349,18 @@ section:nth-of-type(3)>div>div:nth-of-type(3)>div{
     justify-self: center;
     padding-bottom: 2rem;
 }
+.sect5:nth-of-type(1){
+    padding-top: 7rem;
+
+}
 #avatar>div{
     justify-content: center;
 }
 .sect5>div:nth-of-type(3){
     display: flex;
+}
+.sect5 h4{
+    padding-bottom: 3rem;
 }
 #sect5img{
     width: 20rem;
@@ -398,18 +405,24 @@ section:nth-of-type(3)>div>div:nth-of-type(3)>div{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
 }
 #sect6>div:nth-of-type(2){
     display: flex;
     justify-content: center;
 }
 #form{
-    width: 37rem;
+    width: 40rem;
     height: 8rem;
+    padding-bottom: 1.5rem;
 }
 input{
     width: 95%;
     height: 95%;
+    background-color: #fcfcfc;
+    border: solid rgba(0, 0, 0, 0.148) 1px;
+
 }
 #btnsend{
     background-color: white;
@@ -423,4 +436,10 @@ input{
 #divbtnsend{
     justify-content: center;
     display: flex;
+}
+.sect6 h4{
+    padding-bottom: 3rem;
+}
+input::placeholder{
+    text-align: start;
 }
