@@ -73,16 +73,17 @@ header>div not:div:nth-of-type(4){
     display: flex;
     width: auto;
     flex-direction: column;
-    margin-right: 15px;
+    padding-right: 10px;
     cursor: pointer;
     z-index: 2;
 }
 .bar{
-    height: 2px;
+    height: 2.5px;
     width: 35px;
     background:  hsl(0, 0%, 100%) ;
     margin: 5px 0;
     box-shadow:rgb(0, 0, 0)0px 0px 20px;
+    border-radius: 15px;
 }
 .navB{
     transform: translateX(100%);
@@ -547,6 +548,19 @@ footer>div>p{
     transition: transform 200ms ease-in-out, opacity 200ms ease-in-out;
 }
 #dflex > div:hover img {
-    opacity: 0;  /* Rendre l'image invisible */
-    transform: translateY(-100%);  /* Fait glisser l'image vers le haut */
+    opacity: 0; 
+    transform: translateY(-100%);  
+}
+.transf  p {
+    margin: 0;
+    align-self: center;
+}
+#dflex > div  p {
+    font-family: "Baloo", sans-serif; 
+    transition: transform 200ms ease-in-out, opacity 200ms ease-in-out;
+}
+
+#dflex > div:hover  p {
+    opacity: 0;  
+    transform: translateY(-100%); 
 }
