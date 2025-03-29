@@ -551,16 +551,16 @@ footer>div>p{
     opacity: 0; 
     transform: translateY(-100%);  
 }
-.transf  p {
+.transf  .titr {
     margin: 0;
     align-self: center;
 }
-#dflex > div  p {
+#dflex > div  .titr{
     font-family: "Baloo", sans-serif; 
     transition: transform 200ms ease-in-out, opacity 200ms ease-in-out;
 }
 
-#dflex > div:hover  p {
+#dflex > div:hover  .titr {
     opacity: 0;  
     transform: translateY(-100%); 
 }
