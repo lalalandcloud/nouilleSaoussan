@@ -394,16 +394,33 @@ section:nth-of-type(3)>div>div:nth-of-type(3)>div{
 #readmore{
     color: rgb(105, 90, 166);
 }
-#sect6>div{
+#sect6{
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
-#form{
+#sect6>div:nth-of-type(2){
     display: flex;
     justify-content: center;
-
+}
+#form{
+    width: 37rem;
+    height: 8rem;
+}
+input{
+    width: 95%;
+    height: 95%;
 }
 #btnsend{
-    
+    background-color: white;
+    color: hsl(252, 30%, 50%);
+    padding: 0.5rem;
+    border-radius:5px;
+    border: 1px hsl(252, 30%, 50%) solid;
+    height: auto;
+    width: auto;
+}
+#divbtnsend{
+    justify-content: center;
+    display: flex;
 }
