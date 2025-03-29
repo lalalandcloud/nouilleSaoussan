@@ -23,16 +23,21 @@ header{
     width:100%;
     height: auto;
     padding-bottom: 0.5rem;
-    background-position: 50% 10%;
+    background-position: 50% 20%;
     background-size: cover;
 }
 .fontH{
     font-family: "baloo 2";
 }
+header>div:first-of-type .fontH{
+    text-shadow:rgb(0, 0, 0)0px 0px 20px;
+}
 nav{
     display: flex;
     color: white;
     justify-content: space-between;
+    position: fixed;
+    width: 100%;
 }
 nav>div{
     width: 100%;
@@ -57,10 +62,15 @@ ul{
 }
 li{
     margin: 0.5rem;
+    text-shadow:rgb(105, 90, 166)0px 0px 10px;
+
 }
 header>div not:div:nth-of-type(4){
     display: flex;
     flex-direction: column;
+}
+.burger{
+    display: none;
 }
 header>div:nth-of-type(2){
     display: flex;
@@ -246,6 +256,9 @@ section:nth-of-type(3)>div>div:nth-of-type(3)>div{
     border: solid 1px rgba(0, 0, 0, 0.148);
     padding-left:2rem;
     padding-right: 2rem;
+}
+section:nth-of-type(3)>div:first-of-type{
+    padding-bottom: 4rem;
 }
 #red{
     color: red;
