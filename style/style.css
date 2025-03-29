@@ -515,3 +515,38 @@ hr{
 footer>div>p{
     font-size: 14px;
 }
+.transf{
+    display: flex;
+    position: absolute;
+    height: 11rem;
+    width: 12rem;
+    font-family: "noto sans jp";
+    color:hwb(233 34% 63%);
+    justify-self: center;
+    font-size: 14px;
+    text-align: center;
+    overflow: hidden;
+    transform: translateY(100%);   
+}
+.transf>p{
+    margin: 0;
+    align-self: center;
+}
+
+#dflex img,
+.transf{
+    transition: 200ms ease-in-out;
+}
+#dflex>div > .transf.fade{
+    opacity: 0;
+}#dflex>div:hover > .transf.fade{
+    opacity: 1;
+    transform: translateY(0);
+}
+#dflex> img{
+    transition: transform 200ms ease-in-out, opacity 200ms ease-in-out;
+}
+#dflex > div:hover img {
+    opacity: 0;  /* Rendre l'image invisible */
+    transform: translateY(-100%);  /* Fait glisser l'image vers le haut */
+}
