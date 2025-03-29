@@ -1,3 +1,6 @@
 const navEl = document.querySelector(".navB");
-const hamburgerEl = document.querySelector(".burger")
+const burgerEl = document.querySelector(".burger")
 
+burgerEl.addEventListener('click' , () => {
+    navEl.classList.toggle('navB--open');
+})
