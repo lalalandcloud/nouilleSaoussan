@@ -208,15 +208,6 @@ section>div>div>h4{
     margin-top: 0;   
     justify-self: center;
 }
-section>div>div>h6{
-    /* color:rgb(132, 132, 132);
-    margin: 0;
-    font-family: "noto sans jp";
-    padding: 0;
-    font-size: 0.8rem;
-    justify-self: center;
-    font-weight: 450; */
-}
 #dflex>div>div:nth-of-type(2){
     width: auto;
     height: auto;
@@ -402,4 +393,17 @@ section:nth-of-type(3)>div>div:nth-of-type(3)>div{
 }
 #readmore{
     color: rgb(105, 90, 166);
+}
+#sect6>div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#form{
+    display: flex;
+    justify-content: center;
+
+}
+#btnsend{
+    
 }
